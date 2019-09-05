@@ -1,0 +1,67 @@
+.ticket-card{
+	background-color: #fff;
+	width: 40%;
+	margin: 10px auto;
+	box-shadow: 0 0 3px 2px inset gray;
+	padding: 5px;
+	border-radius: 12px 0;
+	list-style: none;
+	transition: .4s ease-in-out;
+	font-family: sans-serif;
+}
+.ticket-card li{
+	padding: 5px;
+	text-align: left;
+}
+.ticket-card:hover{
+	cursor: pointer;
+	transform: scale(1.03);
+}
+.trips-page-search{
+	padding: 15px;
+	margin-top: 5px;
+}
+.trips-page-search input[type='text']
+{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	font-size: 18px;
+	box-shadow: 0 0 1px 1px inset gray;
+	padding: 10px;
+	text-indent: .2em;
+	border-radius: 4px;
+	width: 50%;
+	color: #262626;
+}
+.trips-page-search input[type='text']:focus{
+	box-shadow: 0 0 1px 2px inset lightgreen;
+}
+
+.ticket-not-found{
+	padding: 10px;
+	border: 2px solid tomato;
+	width: 30%;
+	min-height: 100px;
+	margin: 50px auto;
+	border-radius: 20px;
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0 0 2px 1px black;
+}
+.ticket-not-found h4{
+	margin: 0;
+	text-transform: uppercase;
+}
+.ticket-not-found span
+{
+	margin-top: 10px;
+	display: block;
+	font-style: italic;
+	color: #fff;
+	text-transform: uppercase;
+}
